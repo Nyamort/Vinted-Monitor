@@ -1,0 +1,27 @@
+{
+  "name": "vinted",
+  "version": "1.0.0",
+  "description": "Vinted Monitor",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyamort/Vinted.git"
+  },
+  "author": "Nyamort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nyamort/Vinted/issues"
+  },
+  "homepage": "https://github.com/Nyamort/Vinted#readme",
+  "dependencies": {
+    "discord-akairo": "github:NotEnoughUpdates/discord-akairo",
+    "discord.js": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "proxy-check": "^1.0.8",
+    "puppeteer": "^10.2.0",
+    "puppeteer-page-proxy": "^1.2.8"
+  }
+}
