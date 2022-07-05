@@ -29,12 +29,13 @@
   resolved "https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.1.4.tgz"
 
 "@sindresorhus/is@^4.0.0", "@sindresorhus/is@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-4.0.1.tgz"
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
-  resolved "https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-4.0.6.tgz"
+  resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-4.0.6.tgz#b4a914bb62e7c272d4e5989fe4440f812ab1d807"
+
   dependencies:
     defer-to-connect "^2.0.0"
 
@@ -44,7 +45,8 @@
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.2"
-  resolved "https://registry.npmjs.org/@types/cacheable-request/-/cacheable-request-6.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/@types/cacheable-request/-/cacheable-request-6.0.2.tgz#c324da0197de0a98a2312156536ae262429ff6b9"
+
   dependencies:
     "@types/http-cache-semantics" "*"
     "@types/keyv" "*"
@@ -53,21 +55,26 @@
 
 "@types/http-cache-semantics@*":
   version "4.0.1"
-  resolved "https://registry.npmjs.org/@types/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz"
+
+  resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz#0ea7b61496902b95890dc4c3a116b60cb8dae812"
+
+"@types/json-buffer@~3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/json-buffer/-/json-buffer-3.0.0.tgz#85c1ff0f0948fc159810d4b5be35bf8c20875f64"
 
 "@types/keyv@*":
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/@types/keyv/-/keyv-3.1.2.tgz"
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@types/keyv/-/keyv-3.1.4.tgz#3ccdb1c6751b0c7e52300bcdacd5bcbf8faa75b6"
   dependencies:
     "@types/node" "*"
 
 "@types/node@*":
-  version "16.6.1"
-  resolved "https://registry.npmjs.org/@types/node/-/node-16.6.1.tgz"
+  version "18.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.1.tgz#e91bd73239b338557a84d1f67f7b9e0f25643870"
 
 "@types/responselike@*", "@types/responselike@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.npmjs.org/@types/responselike/-/responselike-1.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/@types/responselike/-/responselike-1.0.0.tgz#251f4fe7d154d2bad125abe1b429b23afd262e29"
   dependencies:
     "@types/node" "*"
 
@@ -133,11 +140,11 @@ buffer@^5.2.1, buffer@^5.5.0:
 
 cacheable-lookup@^5.0.3:
   version "5.0.4"
-  resolved "https://registry.npmjs.org/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz"
+  resolved "https://registry.yarnpkg.com/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz#5a6b865b2c44357be3d5ebc2a467b032719a7005"
 
-cacheable-request@^7.0.1:
+cacheable-request@^7.0.2:
   version "7.0.2"
-  resolved "https://registry.npmjs.org/cacheable-request/-/cacheable-request-7.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-7.0.2.tgz#ea0d0b889364a25854757301ca12b2da77f91d27"
   dependencies:
     clone-response "^1.0.2"
     get-stream "^5.1.0"
@@ -157,7 +164,7 @@ chownr@^1.1.1:
 
 clone-response@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.npmjs.org/clone-response/-/clone-response-1.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
   dependencies:
     mimic-response "^1.0.0"
 
@@ -167,6 +174,13 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
+
+compress-brotli@^1.3.8:
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/compress-brotli/-/compress-brotli-1.3.8.tgz#0c0a60c97a989145314ec381e84e26682e7b38db"
+  dependencies:
+    "@types/json-buffer" "~3.0.0"
+    json-buffer "~3.0.1"
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
@@ -179,13 +193,13 @@ debug@4, debug@4.3.1, debug@^4.1.1:
 
 decompress-response@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-6.0.0.tgz#ca387612ddb7e104bd16d85aab00d5ecf09c66fc"
   dependencies:
     mimic-response "^3.1.0"
 
 defer-to-connect@^2.0.0:
   version "2.0.1"
-  resolved "https://registry.npmjs.org/defer-to-connect/-/defer-to-connect-2.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/defer-to-connect/-/defer-to-connect-2.0.1.tgz#8016bdb4143e4632b77a3449c6236277de520587"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -232,7 +246,7 @@ dot-prop@^6.0.1:
 
 end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   version "1.4.4"
-  resolved "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz"
+  resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   dependencies:
     once "^1.4.0"
 
@@ -273,7 +287,7 @@ fs@^0.0.1-security:
 
 get-stream@^5.1.0:
   version "5.2.0"
-  resolved "https://registry.npmjs.org/get-stream/-/get-stream-5.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
   dependencies:
     pump "^3.0.0"
 
@@ -289,15 +303,15 @@ glob@^7.1.3:
     path-is-absolute "^1.0.0"
 
 got@^11.5.1:
-  version "11.8.2"
-  resolved "https://registry.npmjs.org/got/-/got-11.8.2.tgz"
+  version "11.8.5"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.5.tgz#ce77d045136de56e8f024bebb82ea349bc730046"
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
     "@types/cacheable-request" "^6.0.1"
     "@types/responselike" "^1.0.0"
     cacheable-lookup "^5.0.3"
-    cacheable-request "^7.0.1"
+    cacheable-request "^7.0.2"
     decompress-response "^6.0.0"
     http2-wrapper "^1.0.0-beta.5.2"
     lowercase-keys "^2.0.0"
@@ -306,7 +320,7 @@ got@^11.5.1:
 
 http-cache-semantics@^4.0.0:
   version "4.1.0"
-  resolved "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
 
 http-proxy-agent@^4.0.1:
   version "4.0.1"
@@ -318,7 +332,7 @@ http-proxy-agent@^4.0.1:
 
 http2-wrapper@^1.0.0-beta.5.2:
   version "1.0.3"
-  resolved "https://registry.npmjs.org/http2-wrapper/-/http2-wrapper-1.0.3.tgz"
+  resolved "https://registry.yarnpkg.com/http2-wrapper/-/http2-wrapper-1.0.3.tgz#b8f55e0c1f25d4ebd08b3b0c2c079f9590800b3d"
   dependencies:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
@@ -353,14 +367,15 @@ is-obj@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/is-obj/-/is-obj-2.0.0.tgz"
 
-json-buffer@3.0.1:
+json-buffer@3.0.1, json-buffer@~3.0.1:
   version "3.0.1"
-  resolved "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/json-buffer/-/json-buffer-3.0.1.tgz#9338802a30d3b6605fbe0613e094008ca8c05a13"
 
 keyv@^4.0.0:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/keyv/-/keyv-4.0.3.tgz"
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.3.2.tgz#e839df676a0c7ee594c8835e7c1c83742558e5c2"
   dependencies:
+    compress-brotli "^1.3.8"
     json-buffer "3.0.1"
 
 locate-path@^5.0.0:
@@ -379,7 +394,7 @@ lodash@^4.17.21:
 
 lowercase-keys@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
 
 mime-db@1.49.0:
   version "1.49.0"
@@ -393,11 +408,11 @@ mime-types@^2.1.12:
 
 mimic-response@^1.0.0:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/mimic-response/-/mimic-response-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
 
 mimic-response@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -406,8 +421,8 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.5:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  version "1.2.5"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
 
 mkdirp@^0.5.1:
   version "0.5.5"
@@ -425,7 +440,7 @@ node-fetch@2.6.1, node-fetch@^2.6.1:
 
 normalize-url@^6.0.1:
   version "6.1.0"
-  resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
 
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
@@ -446,7 +461,7 @@ ow@^0.27.0:
 
 p-cancelable@^2.0.0:
   version "2.1.1"
-  resolved "https://registry.npmjs.org/p-cancelable/-/p-cancelable-2.1.1.tgz"
+  resolved "https://registry.yarnpkg.com/p-cancelable/-/p-cancelable-2.1.1.tgz#aab7fbd416582fa32a3db49859c122487c5ed2cf"
 
 p-limit@^2.2.0:
   version "2.3.0"
@@ -500,7 +515,7 @@ psl@^1.1.33:
 
 pump@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npmjs.org/pump/-/pump-3.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/pump/-/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
   dependencies:
     end-of-stream "^1.1.0"
     once "^1.3.1"
@@ -538,7 +553,7 @@ puppeteer@^10.2.0:
 
 quick-lru@^5.1.1:
   version "5.1.1"
-  resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
+  resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
 
 readable-stream@^3.1.1, readable-stream@^3.4.0:
   version "3.6.0"
@@ -549,12 +564,12 @@ readable-stream@^3.1.1, readable-stream@^3.4.0:
     util-deprecate "^1.0.1"
 
 resolve-alpn@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/resolve-alpn/-/resolve-alpn-1.2.0.tgz"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/resolve-alpn/-/resolve-alpn-1.2.1.tgz#b7adbdac3546aaaec20b45e7d8265927072726f9"
 
 responselike@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/responselike/-/responselike-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/responselike/-/responselike-2.0.0.tgz#26391bcc3174f750f9a79eacc40a12a5c42d7723"
   dependencies:
     lowercase-keys "^2.0.0"
 
@@ -668,7 +683,7 @@ vali-date@^1.0.0:
 
 wrappy@1:
   version "1.0.2"
-  resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
 ws@7.4.6:
   version "7.4.6"
